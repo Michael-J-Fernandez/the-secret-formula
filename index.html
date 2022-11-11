@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="alert-form">
+        <input type="text" id="alert-input" autocomplete="off">
+        <input type="submit">
+    </form>
+    <br><br>
+
+    <form id="sandwich-form">
+
+        <input type="checkbox" class="ingredients" id="wheat">
+        <label for="wheat">Wheat</label>
+
+        <input type="checkbox" class="ingredients" id="multigrain">
+        <label for="multigrain">Multi-Grain</label>
+        
+        <input type="checkbox" class="ingredients" id="turkey">
+        <label for="turkey">Turkey</label>
+
+        <input type="checkbox" class="ingredients" id="prosciutto">
+        <label for="prosciutto">Prosciutto</label>
+
+        <input type="checkbox" class="ingredients" id="chicken">
+        <label for="chicken">Chiken</label>
+
+        <input type="checkbox" class="ingredients" id="cheddar">
+        <label for="cheddar">Cheddar</label>
+
+        <input type="checkbox" class="ingredients" id="provolone">
+        <label for="provolone">Provolone</label>
+
+        <input type="checkbox" class="ingredients" id="onions">
+        <label for="onions">Onions</label>
+
+        <input type="checkbox" class="ingredients" id="lettuce">
+        <label for="lettuce">Lettuce</label>
+
+        <input type="checkbox" class="ingredients" id="tomato">
+        <label for="tomato">Tomato</label>
+
+        <input type="submit">
+
+    </form>
+    <br><br>
+
+    <form id="haircut-form">
+
+        <label for="haircut-date">Date: </label>
+        <input type="date" id="haircut-date">
+        <br><br>
+        <label for="haircutter">Haircutter: </label>
+        <input type="text" id="haircutter" autocomplete="off">
+        <br><br>
+        Hair Length:
+        <br>
+        <input type="radio" name="hair-length" class="hair-length" id="long" checked>
+        <label for="long-hair">Long</label>
+        <br>
+        <input type="radio" name="hair-length" class="hair-length" id="short">
+        <label for="short-hair">Short</label>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <form id="create-account">
+
+        <label for="user-name">Select a user name: </label>
+        <input type="text" name="user-name" id="user-name" autocomplete="off">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" autocomplete="off">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" autocomplete="off">
+        <br>
+        <label for="password-confirm">Confirm Password: </label>
+        <input type="password" name="password-confirm" id="password-confirm" autocomplete="off">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
